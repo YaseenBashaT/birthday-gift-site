@@ -1,0 +1,89 @@
+@font-face {
+    src: url("Koplok.ttf");
+
+    font-family:  Koplok;
+}
+body{
+    color: rgb(1, 62, 3);
+    text-align: center;
+    background-image: linear-gradient( rgb(224, 252, 224), rgb(236, 255, 236));
+    font-family:  Koplok;
+}
+#pfp {
+    width : 200px;
+    border-radius: 50%;
+    border-bottom: 5px solid rgb(1, 50, 6);
+    border-top: 5px solid rgb(64, 1, 1);
+    border-left: 5px solid rgb(64, 1, 1);
+    border-right: 5px solid rgb(1, 50, 6);
+
+}
+h1{
+    text-shadow: 0 0 30px;
+    
+
+}
+h2, h4{
+    text-shadow: 0px 0px 30px black;
+}
+h3, h4{
+    background: rgb(163, 230, 171);
+    padding: 3 7;
+    border-radius:5px ;
+    margin: 25px 0 1px 0;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift_wrap.jpg");
+    background-size: cover;
+}
+
+
+.gift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50;
+}
+.hint{
+    margin-top: 0;
+    background: none;
+}
+
+.gift-img:hover{
+    background-image: url("giphy.gif") ;
+    height: 300;
+}
+
+.gift-img2 {
+    margin: 0 auto;
+    width: 400px;
+    height: 250px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift_wrap.jpg");
+    background-size: cover;
+}
+.gift-img2:hover{
+    background-image: url("cheers.gif") ;
+}
+.leo {
+    background: none;
+    text-shadow: 0 0 10px;
+}
+
+#footer{
+    width: 400px;
+    margin: 40px auto 20px;
+}
