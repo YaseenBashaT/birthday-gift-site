@@ -1,5 +1,5 @@
 @font-face {
-    src: url("Koplok.ttf");
+    src: url("assets/Koplok.ttf");
 
     font-family:  Koplok;
 }
@@ -44,7 +44,7 @@ h3, h4{
     height: 250px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("gift_wrap.jpg");
+    background-image: url("assets/gift_wrap.jpg");
     background-size: cover;
 }
 
@@ -62,7 +62,7 @@ h3, h4{
 }
 
 .gift-img:hover{
-    background-image: url("giphy.gif") ;
+    background-image: url("assets/giphy.gif") ;
     height: 300;
 }
 
@@ -72,11 +72,11 @@ h3, h4{
     height: 250px;
     border: 6px solid white;
     border-radius: 10px;
-    background-image: url("gift_wrap.jpg");
+    background-image: url("assets/gift_wrap.jpg");
     background-size: cover;
 }
 .gift-img2:hover{
-    background-image: url("cheers.gif") ;
+    background-image: url("assets/cheers.gif") ;
 }
 .leo {
     background: none;
